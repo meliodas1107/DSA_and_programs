@@ -1,0 +1,18 @@
+using the loops 
+
+so if the loop is like :
+these are simple loops:
+	for(int i=0;i<n;i++) the order will be theta(n)
+	for(int i=0;i<n;i=i+c) theta(n/c) =theta(n) same for i=i-c
+	for(int i=0;i<n;i=i*c or i=i/c) theta(logn)
+	for(int i=2;i<n;i=pow(i,c)) means end 2^(c^(k-1)) < n will have theta(log(logn)) 
+	
+for functions with more loops inside not nested :
+we take theta individually ,add them (not for nested loops)
+and in the end we ignore the  lower order terms
+
+nested loops:
+multiply the number of times the loops run :
+theta(n) * theta(log n) = theta(n log n)
+
+

@@ -1,0 +1,11 @@
+symbols :  Θ Ω O
+leading constants .  eg . c*n , c is the leading constant
+
+lower order terms ... literally
+
+Geometric progression:
+sum of all the terms 
+when r >1 :
+	sum=a*(r^n -1)/(r-1)
+	sum=a/(1-r)
+

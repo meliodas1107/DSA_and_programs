@@ -1,0 +1,35 @@
+suppose a function
+fun(int n){
+	if(n<1)
+		return n;
+	for(int i=0;i<n;i++){
+		some work of theta(1);
+	}
+	fun(n/2);
+	fun(n/2);
+}
+when we find the recursive theta , we get this:
+T(n)=2T(n/2) + theta(n)
+To find the "exact" value of T(n), there are several methods :
+recursive Tree method(we  use here,close to programmers)
+master method,etc..
+ 
+In recursive Tree method :
+	we split it into 2 parts :
+		recursive and the non recursive part.
+		we make the recursive part as a child of the non recursive part 
+		then we expand the recursive part 
+	then we find how many times the recursion takes place (it is  equal to the height of the recursive tree .) . So we get the value of time complexity .
+
+eg . T(n)=2T(n-1)+c
+	Ans.recursive tree happens n times .
+	pattern goes like c, 2c,4c.... happens n times
+	this is a geometric progression . 
+	So a*(r^n -1)/(r-1) is the equation to get the sum .
+	so we get T(n)=theta(2^n)
+
+Sometimes we cant get the exact bound(theta) . So we calculate O(omega)
+
+
+	
+	

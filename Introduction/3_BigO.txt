@@ -1,0 +1,4 @@
+mathematical tool
+upper bound represented
+direct  way: ignore lower order terms,ignore constants of leading term
+O(g(n)) simply means that the other function will always be lower than c*O(g(n)) when n>n.(n subscript 0) 

@@ -1,0 +1,4 @@
+1)ignore lower order terms 
+2)Ignore leading Constants
+C<logn(logn)<logn<n^1/3<n^1/2<n<n^2<n^3<n^4<2^n<n^n
+

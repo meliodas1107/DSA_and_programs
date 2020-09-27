@@ -1,0 +1,13 @@
+best ,worst ,and average cases
+
+average cases are hard to calculate 
+so take average of both best and worst(i think)
+
+some algos have all the cases with same order of growth . 
+Eg Merge sort ,min of array , max of array .
+
+There are 3 notations we generally use:
+Big O : exact bound or upper bound //if exact known is exact or ..
+Theta : represents exact bound // in all cases same
+Omega : represents exact or lower bound  // exact or lower bound ..
+

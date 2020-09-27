@@ -1,0 +1,7 @@
+omega provides lower bound
+f(n)=omega(g(n)) iff +ve constants c,n. 0<=c*g(n)<=f(n)
+if we get n. -ve , we can take n.=0 . because n. is gt than 0
+
+if f(n)=omega(g(n))
+then g(n)=O(f(n))
+omega notation is useful when we have lower bound complexity

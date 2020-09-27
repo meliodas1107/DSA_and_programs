@@ -1,0 +1,6 @@
+foe exact bound 
+f(n)=theta(g(n)) iff there exists positive constalnts c1,c2,n. such that 
+0<=c1*g(n)<=f(n)<=C2.g(n) for all n>n. 
+ 
+for all n>n.
+ theta is used to reoresent time complexity when we know exact bound.

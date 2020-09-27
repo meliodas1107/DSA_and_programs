@@ -1,0 +1,16 @@
+We use the same notations for representing the space complexity 
+suppose only 3 variables with constant size  (not array withh size chagin accorfding to input value ) are needed , or maybe two , still it will be Θ(1) because it wont increase with input
+
+auxilary space :is order of  growth of extra space or  temporary space in terms of input size 
+
+when arrays are considered , rather than the space needed for array input output, , we calculate the auxilary space .
+
+eg .merge sort uses extra space . it uses  Θ(n) auxilary space .
+
+eg .insertion sort  , selection sort , bubble sort ,heap sort , all are  Θ(1) auxilary space 
+
+quick sort Θ(logn) uses recursion
+auxilary space is a better one where arrays , lists,etc are considered .
+
+
+
